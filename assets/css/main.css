@@ -99,3 +99,24 @@
 .footer-copyright {
     border-color: rgba(256, 256, 256, .1) !important;
 }
+
+
+.sb-logo-wrapper {
+    height: inherit;
+    width: 225px;
+    transition: width 0.15s ease-in-out;
+}
+
+.sb-logo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0.25rem 0.5rem;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    transition: color 0.5s;
+}
+
+.sb-logo:hover {
+    color: var(--primary-color) !important;
+}
