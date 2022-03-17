@@ -43,6 +43,10 @@ body {
     color: var(--secondary-color) !important;
 }
 
+.text-gray {
+    color: var(--gray-color) !important;
+}
+
 .text-light {
     color: var(--light-color) !important;
 }
@@ -70,12 +74,39 @@ body {
     margin-bottom: 30px;
 }
 
-.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading,
-.sb-sidenav-dark .sb-sidenav-menu .nav-link,
-.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
-    color: var(--light-color);
+.p-30 {
+    padding: 30px;
 }
 
-.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-select:focus {
+    border-color: var(--primary-color);
+}
+
+.display-4 {
+    font-weight: 400 !important;
+}
+
+h2, h3 {
+    font-weight: 700;
+}
+
+.page-item.active .page-link {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.page-item .page-link {
     color: var(--primary-color);
+    box-shadow: none;
+    border-radius: 0 !important;
+}
+
+.table-dark th {
+    color: var(--light-color);
+    background-color: var(--secondary-color); 
 }
